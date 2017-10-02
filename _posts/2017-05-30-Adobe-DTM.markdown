@@ -10,4 +10,4 @@ I troubleshooted a DTM implementation and found how a small incorrect configurat
 Read more about it here - [Adobe DTM - Make sure you do it right]
 
 
-[Adobe DTM - Make sure you do it right]:  https://www.linkedin.com/pulse/add-new-skill-echo-amazon-alexa-skills-kit-read-latest-kunal-gaba
+[Adobe DTM - Make sure you do it right]:  https://www.linkedin.com/pulse/adobe-dtm-make-sure-you-do-right-kunal-gaba/
