@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Adobe DTM - Make sure you do it right"
+date:   2017-05-30 16:02:15
+categories: AEM
+---
+
+I troubleshooted a DTM implementation and found how a small incorrect configuration in DTM can cause problems to business users.
+
+Read more about it here - [Adobe DTM - Make sure you do it right]
+
+
+[Adobe DTM - Make sure you do it right]:  https://www.linkedin.com/pulse/add-new-skill-echo-amazon-alexa-skills-kit-read-latest-kunal-gaba
