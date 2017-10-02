@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: "Kunal Gaba's web blog"
-subtitle: "Kunal Gaba's personal web blog"
+title: "Kunal Gaba"
+subtitle: "My personal web blog"
 email: kunalgaba@gmail.com
 name: Kunal Gaba
 description: >
