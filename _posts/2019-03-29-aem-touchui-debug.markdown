@@ -18,23 +18,33 @@ You may be required to do the following
 And there can be many other such requirements.
 
 The first thing for you to do Touch UI customization is to find out the container Granite component which you need to overlay and make the changes.
-Many developers are not able to easily find out which container component it is and where it exists in the repository heirarchy. I have seen most of the time devs have to find out what CSS classes are applied on the container component and then search for those class names in the repository.
+Many developers are not able to easily find out which container component it is and where it exists in the repository heirarchy.
+
+I have seen most of the time devs have to find out what CSS classes are applied on the container component and then search for those class names in the repository.
 If you are lucky with the css name then you will see less number of results and you can find out the component. But many times you may see too many results and you are not able to figure out the container component easily.
 
-To solve this problem of component identification in the DOM, I contributed Sling Component Debugger tool in Adobe ACS Tools project - https://adobe-consulting-services.github.io/acs-aem-tools/features/sling-component-debug-filter/index.html
+To solve this problem of component identification in the DOM, I contributed this tool in Adobe ACS Tool project - [Sling Component Debugger](https://adobe-consulting-services.github.io/acs-aem-tools/features/sling-component-debug-filter/index.html)
 
-Using this tool you can easily find out the Touch UI container components by just looking for the following comment in the HTML- <!-- acs:resourcePath: /path/to/the/included/resource -->
+Using this tool you can easily find out the Touch UI container components by just looking for the following comment in the HTML-
+
+\<!-- acs:resourcePath: /path/to/the/included/resource -->
 
 The tools prints the path of the container component and you can directly use the path to navigate to the touch UI component.
 
 For example, if you are customizing the AEM Start Screen then you can inspect any of the icons shown on the screen and you will see comments like below-
-<!-- {acs:resourcePath:/mnt/overlay/cq/core/content/nav-->
 
-![alt text](https://github.com/kunalgaba/kunalgaba.github.io/tree/master/assets/Sling-component-debugger.png "Sling Component Debugger")
+\<!-- {acs:resourcePath:/mnt/overlay/cq/core/content/nav-->
+
+![alt text](https://raw.githubusercontent.com/kunalgaba/kunalgaba.github.io/master/assets/Sling-component-debugger.png "Sling Component Debugger")
 
 So now you know the start screen navigation component in the repository is located at - /libs/cq/core/content/nav.
 
-Hope this will help you in customizing Touch UI. Happy coding!
+This tool has helped me save alot of time in my projects.
+
+Hope this will help you in customizing Touch UI.
+Install ACS Tools package and start using Sling Component debugger.
+
+Happy coding!
 
 
 
