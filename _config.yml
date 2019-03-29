@@ -11,7 +11,7 @@ exclude:
 # Site settings
 title: "Kunal Gaba"
 subtitle: "A blog on digital, Adobe experience cloud and some new interesting stuff"
-email: kunalgaba@gmail.com
+email:
 name: Kunal Gaba
 description: >
  Thoughts and learnings on technology, digital, content management, AEM and other stuff here.
