@@ -10,6 +10,80 @@
     <div class="page-content">
         {{ content }}
     </div>
+    <!-- Addded FAQ schema code for tesing -->
+
+    <div class="container" id="home.faq">
+      <h2 class="text-center">Frequently Asked Questions</h2>
+      <div class="panel-group" id="accordion-home.faq" role="tablist" aria-multiselectable="true">
+
+        <div class="panel panel-default panel-faq">
+          <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "I have changed the security on my property - do I need to let you know?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If you are altering the security on your property you should inform us as it may change the conditions of your home insurance. This may affect your premium."
+                }
+              }]
+            }
+          </script>
+          <div class="panel-heading" role="tab" id="home-faqHeading1"  data-toggle="collapse"  data-target="#home-faqCollapse1" data-parent="#accordion">
+            <h4 class="panel-title">
+              <span class="icon-small blue-arrow-right-trans-bg pull-right"></span>
+              <div  class="collapsed" role="button"  aria-expanded="false" aria-controls="home-faqCollapse1">
+                <h4 class="panel-title">
+                  <a class="track-event" data-trackaction="FAQ - Security Property Change" data-tracklabel="Home Insurance" data-tracklocation="Bottom">
+                    <div class="collapsed" role="button" aria-expanded="false" aria-controls="home-faqCollapse1">
+                      I have changed the security on my property - do I need to let you know?					</div></a>
+                </h4>					</div>
+            </h4>
+          </div>
+          <div id="home-faqCollapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="home-faqHeading1">
+            <div class="panel-body">
+              If you are altering the security on your property you should inform us as it may change the conditions of your home insurance. This may affect your premium. 				</div>
+          </div>
+        </div>
+
+        <div class="panel panel-default panel-faq">
+          <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "I'm about to install a new kitchen and renovate my bathroom - should I notify Allianz?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Before commencing renovations it is important that you notify us as it may affect your coverage and the terms and conditions of your home insurance policy.  It is important that you increase your sum insured to reflect any extensions or renovations to make sure you are adequately covered in the event of a home insurance claim."
+                }
+              }]
+            }
+          </script>
+          <div class="panel-heading" role="tab" id="home-faqHeading2"  data-toggle="collapse"  data-target="#home-faqCollapse2" data-parent="#accordion">
+            <h4 class="panel-title">
+              <span class="icon-small blue-arrow-right-trans-bg pull-right"></span>
+              <div  class="collapsed" role="button"  aria-expanded="false" aria-controls="home-faqCollapse2">
+                <h4 class="panel-title">
+                  <a class="track-event" data-trackaction="FAQ - Remove Kitchen and Bathroom" data-tracklabel="Home Insurance" data-tracklocation="Bottom">
+                    <div class="collapsed" role="button" aria-expanded="false" aria-controls="home-faqCollapse2">
+                      I'm about to install a new kitchen and renovate my bathroom - should I notify Allianz?					</div></a>
+                </h4>					</div>
+            </h4>
+          </div>
+          <div id="home-faqCollapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="home-faqHeading2">
+            <div class="panel-body">
+              Before commencing renovations it is important that you notify us as it may affect your coverage and the terms and conditions of your home insurance policy.  It is important that you increase your sum insured to reflect any extensions or renovations to make sure you are adequately covered in the event of a home insurance claim.				</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+        <!-- Addded FAQ schema code for tesing -->
 
     {% include footer.html %}
 
