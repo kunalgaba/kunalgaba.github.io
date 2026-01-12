@@ -2,9 +2,8 @@
 layout: post
 title: "Tired of AI Hype? Get the Engineering Reality: Introducing AI News Hub"
 description: "Why most AI news misses the mark for engineers, and how AI News Hub cuts through the noise with battle-tested insights on Agentic AI, RAG, and production tools."
-author: "[Your Name/AI News Hub Team]"
-date: "2024-07-26"
-categories: ["AI", "Engineering", "LLM", "RAG", "Agentic AI", "Productivity", "Tech News"]
+date: 2024-07-26 16:02:15
+categories: AI
 ---
 
 # Tired of AI Hype? Get the Engineering Reality: Introducing AI News Hub
